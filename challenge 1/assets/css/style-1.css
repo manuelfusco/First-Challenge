@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Slab:wght@700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Prata&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Slab:wght@700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Prata&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("../background-img.jpg");
+  color: aliceblue;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Slab", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prata", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+header {
+  margin: 0;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgba(144, 31, 221, 0.908000700280112) 2%,
+    rgba(60, 255, 220, 0.835171568627451) 49%,
+    rgba(230, 191, 94, 1) 100%
+  );
+}
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+#challenge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#challenge > h2 {
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  color: #743356;
+  margin: 0;
+}
+#nav > a {
+  display: flex;
+  color: #e7f8fa;
+  text-emphasis: none;
+  text-decoration: none;
+  font-style: italic;
+}
+#nav > a:hover {
+  background-color: bisque;
+  color: aqua;
+}
+ion-icon {
+  align-items: baseline;
+}
+#logo > img {
+  height: 4vh;
+  width: 10vw;
+  margin: 0;
+}
+h1,
+h3,
+h4,
+h5 {
+  display: flex;
+  justify-content: center;
+  color: violet;
+}
+#profile-pic {
+  display: flex;
+  contain: content;
+  padding: 2.5vw 1.5vh;
+  align-items: center;
+}
+#profile-pic > img {
+  display: flex;
+  height: 30vh;
+  width: 25vw;
+  border-radius: 20% 50%;
+  padding: 3em;
+}
+#profile-pic > p {
+  display: flex;
+  font-size: 5vh;
+  text-align: center;
+  text-shadow: 2px 2px 4px #ebe9f9;
+  font-family: "Dancing Script", serif;
+  letter-spacing: 3px;
+}
+#main-container {
+  text-align: center;
+  display: flex;
+  margin: 1em;
+  font-size: 4vh;
+}
+p > a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:wght@400;700&family=Prata&family=Roboto&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;700&family=Prata&family=Roboto&family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@400;700&family=Prata&family=Roboto&family=Roboto+Slab:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(31, 201, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 201, 221, 0.908000700280112) 2%,
+    rgba(60, 255, 250, 0.865983893557423) 49%,
+    rgba(94, 133, 230, 1) 100%
+  );
+}
+
+.main-section {
+  padding: 20px;
+}
+.image-container {
+  height: 600px;
+  background-image: url("https://cdn.sfusato.com/HykU8HZONWTgGBhZLMQDYxsdJQlhlFk_pj4zLUAbYWU/quality:70/rs:fit:1024:0:true/aHR0cHM6Ly93d3cuYW1hbGZpLmNvbS9pbWFnZXMvYmctYW1hbGZpLTFlN2Y2NGRkZDEzZGEyZmYzMmYzM2Y3ZTlmMzU5OWZjLmpwZz92c249ZA.webp");
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  contain: content;
+}
+img {
+  height: 500;
+  width: 700;
+  padding: 0;
+  margin: 2vw 4vh;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #033b9a;
+}
+#amalfi {
+  display: inline;
+  width: 60px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Prata", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  color: #85363e;
+}
+
+h1,
+h3 {
+  margin-bottom: 0;
+}
+address > a {
+  font-weight: 600;
+  font-style: italic;
+}
+h6 {
+  padding: 22px;
+  margin-bottom: 0px;
+  margin-top: 56px;
+  color: white;
+  border-radius: 6px;
+  background-image: linear-gradient(#033b9a, #85363e);
+}
+.correlates {
+  list-style: none;
+  padding: 0;
+}
+ul > li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  border-bottom: 1px, color(#dfdfdf);
+  text-decoration: none;
+  color: #476993;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  background-color: black;
+  padding: 16px;
+}
+footer > a {
+  display: flex;
+  justify-content: center;
+  color: white;
+}

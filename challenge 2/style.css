@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:wght@400;700&family=Prata&family=Roboto&family=Roboto+Slab:wght@500&display=swap");
+body {
+  font-family: "Roboto Slab", serif;
+  background: url(assets/bck-img.jpg);
+
+  background-blend-mode: lighten;
+}
+#h1 {
+  padding: 1vh;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: black;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #0600ff;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+div {
+  background: rgb(201, 159, 145);
+  background: linear-gradient(
+    0deg,
+    rgba(201, 159, 145, 1) 10%,
+    rgba(245, 221, 210, 0.6446953781512605) 35%
+  );
+}
+#form {
+  background: none;
+}
+.user-data {
+  display: flex;
+  justify-content: center;
+  padding: 1vh;
+
+  background: none;
+}
+input {
+  border: none;
+  font-family: "Roboto Slab", serif;
+}
+button {
+  display: flex;
+  font-family: "Roboto Slab", serif;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#checkbox {
+  background-image: none;
+}
+p {
+  display: flex;
+  font-style: italic;
+  justify-content: center;
+  font-size: large;
+  background-color: #f2d99e;
+}

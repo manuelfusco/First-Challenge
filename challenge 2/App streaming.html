@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> App di streaming</title>
+</head>
+
+<body>
+    <header>
+        <div id="h1">
+            <h1> Un nuova app di streaming musicale dove la casualità è scelta dai tuoi gusti!
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="h2">
+
+            <h2>GoMusic! <ion-icon name="play-circle-outline"></ion-icon></h2>
+            <p>è una libreria virtuale in cui ti compariranno brani musicali in base ai tuoi gusti
+                musicali.</p>
+
+
+            <h3>Per procedere e provare con le tue orecchie la potenzialità dell'app ti chiediamo di registrarti</h3>
+            <div id="form">
+                <h2>Registrati compilando il form di seguito:</h2>
+                <form
+                    onsubmit="alert ('Registrazione Effettuata!Ti invieremo una mail di conferma. Grazie per averci scelto. Hai scelto la tua musica!')">
+                    <div class="user-data">
+                        <input type="text" placeholder="Nome">
+                    </div>
+                    <div class="user-data">
+                        <input type="text" placeholder="Cognome">
+                    </div>
+                    <div class="user-data">
+                        <input type="email" placeholder="E-mail">
+                    </div>
+                    <div class="user-data">
+                        <input type="password" placeholder="Nuova password">
+                    </div>
+                    <div class="user-data">
+                        <input type="password" placeholder="Riconferma password">
+                    </div>
+                    <div class="user-data">
+                        <input type="date" placeholder="Data di nascita">
+                    </div>
+                    <div class="user-data">
+                        <input type="number" placeholder="Numero di telefono">
+                    </div>
+
+                    <button submit"> Registrazione
+                    </button>
+
+                </form>
+            </div>
+
+
+    </main>
+
+    <div id="user-data2">
+        <form onsubmit="alert('Grazie per averci indicato i tuoi gusti! Cercheremo la musica che fa per te!')">
+            <div id="checkbox">
+                Indica i tuoi gusti musicali preferiti: <br><input type="checkbox" name="Latina" id="L"> Latina
+                <input type="checkbox" name="Pop" id="P"> Pop
+                <input type="checkbox" name="Rock" id="R"> Rock
+                <input type="checkbox" name="Hip-Hop/Rap" id="HR"> Hip-Hop/Rap
+                <input type="checkbox" name="R&B" id="RB"> R&B
+                <input type="checkbox" name="Country" id="C"> Country
+                <input type="checkbox" name="Raggae" id="Rg"> Raggae
+                <input type="checkbox" name="Metal" id="ML"> Metal
+                <input type="checkbox" name="Soul" id="SL"> Soul
+                <input type="checkbox" name="Funk" id="FK"> Funk
+                <input type="checkbox" name="Classica" id="CL"> Classica
+
+                <input type="radio"> <a href="">Accetto i termini e le condizioni del servizio </a> <br>
+            </div>
+
+            <button type="submit"> Invia le tue preferenze</button>
+        </form>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
